@@ -50,7 +50,7 @@
 }
 
 .footer-menu {
-    padding-left: 131px;
+    margin-left: 144px;
 }
 
 .footer-list-menu {}
@@ -67,8 +67,7 @@
     flex: none;
     order: 2;
     flex-grow: 0;
-    gap: 14px;
-    display: grid;
+    margin-bottom: 14px;
 }
 
 .footer-link-menu {
@@ -130,4 +129,68 @@
     flex-grow: 0;
     gap: 14px;
     display: flex;
+}
+@media screen and (min-width: 768px) {
+    .footer-link-tel{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .footer-text-city{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    .footer-item-menu{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .footer-text-spot{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.3;
+        letter-spacing: -0.02em;
+        color: #C6CDD1;
+        opacity: 0.9
+    }
+    .footer-text-link{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: -0.02em;
+        color: #C6CDD1;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .footer-item-info{
+        justify-content: end;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
 }
