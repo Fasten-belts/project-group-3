@@ -1,0 +1,133 @@
+.footer-container {
+    background: #1E2827;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.footer-container-content{
+    display: flex;
+}
+
+.container {}
+
+.footer-connect {}
+
+.footer-logo {}
+
+.footer-adress {
+    margin: 40px 0px 40px 0px
+}
+
+.footer-list-adress {
+    gap: 20px;
+    display: grid;
+}
+
+.footer-item-tel {}
+
+.footer-link-tel {
+    font-family: 'Epilogue' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-item-city {
+    font-family: 'Epilogue' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.footer-link-city {
+    width: 141px;
+    display: flex;
+}
+
+.footer-menu {
+    margin-left: 130px
+}
+
+.footer-list-menu {}
+
+.footer-item-menu {
+    font-family: 'Epilogue' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    gap: 14px;
+    display: grid;
+}
+
+.footer-link-menu {
+    
+}
+
+.footer-info {}
+
+.footer-list-info {}
+
+.footer-item-info {}
+
+.footer-link-info {}
+
+.footer-svg-info {}
+
+.footer-text {}
+
+.footer-text-spot {
+    font-family: 'Epilogue' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: -0.02em; 
+    color: #C6CDD1;
+    opacity: 0.9;
+    margin-bottom: 14px;
+}
+
+.footer-text-link {
+    font-family: 'Epilogue' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #C6CDD1;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.footer-spot{
+    
+}
+
+.footer-text-service {
+    font-family: 'Epilogue' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #C6CDD1;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    gap: 14px;
+    display: flex;
+}
