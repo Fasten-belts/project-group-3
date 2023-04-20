@@ -1,0 +1,85 @@
+.about-section {
+    padding-top: 40px;
+}
+
+.about-title {
+font-family: 'Epilogue', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 1.25;
+letter-spacing: -0.02em;
+color: var(--title-text-color);
+margin-bottom: 40px;
+}
+
+.about-text {
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: var(--section-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+ .about-text.paragraf {
+    margin-bottom: 40px;
+ } 
+
+  @media screen and (min-width: 375px){
+.about-text {
+    width: 335px;
+}
+
+.about-gif {
+    max-width: 335px;
+    max-height: 365px;
+}
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+    
+    .about-section {
+        padding-top: 64px;
+    }
+
+    .about-container {
+        display: flex;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .about-title {
+        font-size: 40px;
+        line-height: 1.1;
+        margin-bottom: 0;
+    }
+
+    .about-container-text {
+        display: flex;
+        gap: 20px;
+    }
+
+    .about-text {
+        width: 220px;
+        margin-bottom: 0;
+    }
+    
+    .about-text.paragraf {
+        width: 250px;
+        margin-bottom: 0;
+    }
+
+    .about-gif {
+        width: 100%;
+        max-width: 704px;
+        max-height: 456px;
+    }
+  }
