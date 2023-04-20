@@ -35,6 +35,11 @@
 }
 
 .footer-item-city {
+  
+}
+
+.footer-text-city {
+    display: flex;
     font-family: 'Epilogue' sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -44,13 +49,8 @@
     color: #FFFFFF;
 }
 
-.footer-link-city {
-    width: 141px;
-    display: flex;
-}
-
 .footer-menu {
-    margin-left: 130px
+    padding-left: 131px;
 }
 
 .footer-list-menu {}
