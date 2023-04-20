@@ -1,21 +1,8 @@
-.header {
-  padding: 20px 0;
-}
+p {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1.04;
+  /* or 103% */
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
-}
-
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+  letter-spacing: -0.04em;
 }
