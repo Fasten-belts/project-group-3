@@ -28,6 +28,7 @@
 }
 .big-img {
   width: 192px;
+  height: 286px;
 }
 .product {
   margin-bottom: 40px;
@@ -170,6 +171,7 @@
   }
   .big-img {
     width: 235px;
+    height: 350px;
   }
   .description-blok {
     width: 335px;
@@ -197,6 +199,7 @@
   }
   .big-img {
     width: 406px;
+    height: 614px;
   }
   .product {
     width: 704px;
