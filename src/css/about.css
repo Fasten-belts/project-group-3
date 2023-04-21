@@ -35,9 +35,16 @@ margin-bottom: 40px;
 }
 
 .about-gif {
-    max-width: 335px;
-    max-height: 365px;
+    width: 335px;
+    height: 365px;
 }
+}
+
+@media screen and (max-width: 375px) {
+    .about-gif {
+        width: 335px;
+        height: 365px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -52,6 +59,7 @@ margin-bottom: 40px;
 
     .about-container {
         display: flex;
+        flex-wrap: wrap;
         gap: 40px;
         margin-bottom: 40px;
     }
@@ -78,8 +86,33 @@ margin-bottom: 40px;
     }
 
     .about-gif {
-        width: 100%;
-        max-width: 704px;
-        max-height: 456px;
+        width: 704px;
+        height: 456px;
     }
   }
+
+  @media screen and (min-width: 1280px) {
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    .about-section {
+        padding-top: 80px;
+        margin-bottom: 80px;
+    }
+    
+    .about-container {
+        
+    }
+
+    .about-text {
+        width: 439px;
+    }
+    
+    .about-text.paragraf {
+        width: 380px;
+    }
+    
+  }
+  
