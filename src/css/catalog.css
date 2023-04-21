@@ -1,0 +1,124 @@
+.catalog {
+  padding-top: 80px;
+  background-color: #efefef;
+}
+.catalog-title {
+  margin-bottom: 40px;
+
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+
+  color: var(--title-text-color);
+}
+
+@media screen and (max-width: 767px) {
+  .catalog-list-item {
+    margin-bottom: 40px;
+  }
+}
+.card-link {
+}
+.img-wrap {
+  padding: 43px 30px;
+  margin-bottom: 14px;
+}
+.card-text {
+  margin-bottom: 4px;
+
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+
+  color: var(--section-text-color);
+}
+.card-price {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+
+  color: var(--accent-text-color);
+}
+.modal-open-btn {
+  display: block;
+  margin-left: auto;
+  padding: 14px 28px;
+  min-width: 108px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+
+  background-color: #1e2827;
+
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--primary-text-color);
+
+  transition: border 250ms ease-in-out;
+}
+.modal-open-btn:focus {
+  border: 1px solid #ffffff;
+}
+@media screen and (max-width: 1279px) {
+  .hidden {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .catalog {
+    padding-top: 128px;
+  }
+  .catalog-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin-bottom: 40px;
+  }
+  .catalog-list-item {
+    width: calc((100% - 30px) / 2);
+  }
+  .modal-open-btn {
+    padding: 18px 35px;
+    min-width: 122px;
+  }
+  .modal-open-btn:is(:hover, :focus) {
+    border: 1px solid #ffffff;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .catalog {
+    padding-top: 80px;
+    padding-bottom: 210px;
+  }
+  .catalog-title {
+    margin-bottom: 64px;
+  }
+  .img-wrap {
+    padding: 26px 0 25px 0;
+  }
+  .catalog-list {
+    column-gap: 24px;
+    row-gap: 64px;
+    margin-bottom: 80px;
+  }
+  .catalog-list-item {
+    width: calc((100% - 24px * 3) / 4);
+  }
+}
