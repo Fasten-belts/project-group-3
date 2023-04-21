@@ -1,0 +1,72 @@
+.hero-section {
+  padding-top: 122px;
+  padding-bottom: 40px;
+  background-color: var(--hero-bcg-color);
+}
+
+.hero-title {
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  color: var(--primary-text-color);
+  margin-bottom: 60px;
+}
+
+.swiper-image {
+  margin-bottom: 20px;
+}
+
+.swiper-control {
+  margin: 0 0 40px 0;
+}
+
+/* .swiper-control-button {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+} */
+
+/* !!!!!!!!!!!! */
+/* .swiper-control-btn-icon {
+  fill: rgba(255, 255, 255, 0.5);
+  stroke: rgba(255, 255, 255, 0.5);
+}
+
+.swiper-control-button:focus {
+  border-color: rgb(255, 255, 255);
+} */
+
+.hero-text {
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--primary-text-color);
+
+  width: 248px;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+/********** 768px + **********/
+@media screen and (min-width: 768px) {
+  .hero-section {
+    padding-top: 148px;
+    padding-bottom: 64px;
+  }
+
+  .hero-title {
+    font-size: 60px;
+    line-height: 1.03;
+    width: 653px;
+  }
+}
