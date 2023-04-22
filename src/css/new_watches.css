@@ -51,7 +51,9 @@
   .text-new-products {
     margin-bottom: 80px;
   }
-
+  .product-item {
+    width: calc((100% - 24px) / 2);
+  }
   .product-image {
     width: 576px;
   }
