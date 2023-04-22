@@ -9,11 +9,20 @@
 @import url('./fonts.css');
 @import url('./containers.css');
 @import url('./header.css');
-
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./catalog.css');
+@import url('./new_watches.css');
+@import url('./sale.css');
 @import url('./footer.css');
 
-@import url('./about.css');
-@import url('./sale.css');
-@import url('./new_watches.css');
+
+
+
+
+
+
+
+
 
 
