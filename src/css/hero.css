@@ -23,6 +23,13 @@
   margin: 0 0 40px 0;
 }
 
+<<<<<<< Updated upstream
+=======
+.swiper-control-button:focus {
+  border-color: rgb(255, 255, 255);
+}
+
+>>>>>>> Stashed changes
 .hero-text {
   font-family: 'Epilogue', sans-serif;
   font-style: normal;
