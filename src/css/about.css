@@ -6,6 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    margin-bottom: 40px;
 }
 
 .about-container-text {
@@ -88,8 +89,9 @@ color: var(--title-text-color);
 
   @media screen and (min-width: 1280px) {
     .container {
-        padding-right: 20px;
-        padding-left: 20px;
+        max-width: 1206px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     
     .about-section {
@@ -99,11 +101,11 @@ color: var(--title-text-color);
     
     .about-container {
         justify-content: flex-start;
-        gap: 40px 100px;
+        gap: 110px;
+        margin-bottom: 40px;
     }
 
     .about-container-text {
-        align-items: flex-start;
         gap: 40px;
     }
 
@@ -116,8 +118,8 @@ color: var(--title-text-color);
     }
 
     .about-gif {
-
         width: 892px;
         height: 500px;
+        margin-left: 284px;
   }
 }
