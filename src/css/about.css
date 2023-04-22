@@ -98,8 +98,8 @@ color: var(--title-text-color);
     }
     
     .about-container {
-        justify-content: flex-end;
-        gap: 40px 110px;
+        justify-content: flex-start;
+        gap: 40px 100px;
     }
 
     .about-container-text {
