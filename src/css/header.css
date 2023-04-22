@@ -9,11 +9,9 @@
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 34px;
-
+  padding-top: 29px;
   position: relative;
-  padding-bottom: 22px;
-  background-color: black;
+  background-color: #141414;
   /* position: absolute; */
 }
 
@@ -22,12 +20,6 @@
 }
 
 .logo {
-  font-family: 'Epilogue';
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1;
-  letter-spacing: -0.03em;
-  color: var(--primary-text-color);
   display: flex;
   gap: 4px;
 }
@@ -38,7 +30,9 @@
 }
 
 .header-logo-text {
-  font-family: inherit;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1;
   letter-spacing: -0.03em;
@@ -127,6 +121,10 @@
 
 
 @media screen and (min-width: 768px) {
+  .header-container {
+    padding-top: 20px;
+  }
+  
   .menu-open-btn {
     display: none;
   }
