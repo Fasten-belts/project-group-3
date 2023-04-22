@@ -23,26 +23,6 @@
   margin: 0 0 40px 0;
 }
 
-/* .swiper-control-button {
-  width: 32px;
-  height: 32px;
-  padding: 0;
-  margin: 0;
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 8px;
-} */
-
-/* !!!!!!!!!!!! */
-/* .swiper-control-btn-icon {
-  fill: rgba(255, 255, 255, 0.5);
-  stroke: rgba(255, 255, 255, 0.5);
-}
-
-.swiper-control-button:focus {
-  border-color: rgb(255, 255, 255);
-} */
-
 .hero-text {
   font-family: 'Epilogue', sans-serif;
   font-style: normal;
@@ -68,5 +48,16 @@
     font-size: 60px;
     line-height: 1.03;
     width: 653px;
+  }
+
+  .hero-section .container {
+    position: relative;
+  }
+
+  .hero-text {
+    position: absolute;
+    top: 464px;
+    right: 32px;
+    margin: 0;
   }
 }
