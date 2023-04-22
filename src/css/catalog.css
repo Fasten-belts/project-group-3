@@ -19,8 +19,6 @@
     margin-bottom: 40px;
   }
 }
-.card-link {
-}
 .img-wrap {
   padding: 43px 30px;
   margin-bottom: 14px;
@@ -44,6 +42,66 @@
   letter-spacing: -0.02em;
 
   color: var(--accent-text-color);
+}
+.card-scene {
+  position: relative;
+  width: 336px;
+  height: 360px;
+}
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 250ms ease;
+}
+.card-link:hover .card {
+  transform: rotateY(180deg);
+}
+.card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-back {
+  position: absolute;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  backface-visibility: hidden;
+
+  background-color: #1e2827;
+  transform: rotateY(180deg);
+}
+.overlay-title {
+  margin-bottom: 10px;
+
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.overlay-text {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+.top {
+  max-width: 236px;
+  margin-bottom: 14px;
+}
+.bottom {
+  max-width: 162px;
 }
 .modal-open-btn {
   display: block;
@@ -105,7 +163,6 @@
 @media screen and (min-width: 1280px) {
   .catalog {
     padding-top: 80px;
-    padding-bottom: 210px;
   }
   .catalog-title {
     margin-bottom: 64px;
