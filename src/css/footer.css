@@ -220,6 +220,7 @@
 
 @media screen and (min-width: 1280px) {
     .footer-container{
+        max-width: 1440px;
         padding-top: 104px;
         padding-bottom: 32px;
     }
@@ -253,8 +254,7 @@
         opacity: 0.9;
     }
     .footer-text-service{
-        margin-left: 470px;
-        margin-right: 112px;
+        margin-left: 680px;
     }
     .footer-text-link{
         font-family: 'Epilogue' sans-serif;
