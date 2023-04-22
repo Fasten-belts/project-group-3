@@ -55,7 +55,7 @@
   transform-style: preserve-3d;
   transition: transform 250ms ease;
 }
-.card-link:hover .card {
+.card-link:is(:hover, :focus) .card {
   transform: rotateY(180deg);
 }
 .card-front {
