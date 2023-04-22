@@ -220,13 +220,11 @@
 
 @media screen and (min-width: 1280px) {
     .footer-container{
-        width: 100%;
-        max-width: 1440px;
         padding-top: 104px;
         padding-bottom: 32px;
     }
     .footer-info{
-        margin-left: 367px;
+        margin-left: 357px;
     }
     .footer-menu{
         margin-left: 349px;
@@ -241,10 +239,10 @@
         color: #FFFFFF;
     }
     .footer-container-help{
-        margin-left: 118px;
+        margin-left: 112px;
     }
     .footer-text-spot{
-        margin-left: 118px;
+        margin-left: 112px;
         font-family: 'Epilogue' sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -255,7 +253,8 @@
         opacity: 0.9;
     }
     .footer-text-service{
-        margin-left: 680px;
+        margin-left: 470px;
+        margin-right: 112px;
     }
     .footer-text-link{
         font-family: 'Epilogue' sans-serif;
