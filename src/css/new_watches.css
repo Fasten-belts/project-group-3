@@ -36,8 +36,8 @@
   .title-new-products {
     padding-top: 150px;
   }
-  .products-list {
-    /* width: calc((100% - 20px) / 2); */
+  .product-item {
+    width: calc((100% - 20px) / 2);
   }
   .product-image {
     width: 342px;
