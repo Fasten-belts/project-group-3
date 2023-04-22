@@ -23,13 +23,6 @@
   margin: 0 0 40px 0;
 }
 
-<<<<<<< Updated upstream
-=======
-.swiper-control-button:focus {
-  border-color: rgb(255, 255, 255);
-}
-
->>>>>>> Stashed changes
 .hero-text {
   font-family: 'Epilogue', sans-serif;
   font-style: normal;
@@ -63,8 +56,36 @@
 
   .hero-text {
     position: absolute;
-    top: 464px;
+    top: 316px;
     right: 32px;
+    margin: 0;
+  }
+}
+
+/********** 1280px + **********/
+@media screen and (min-width: 1280px) {
+  .hero-section {
+    padding-bottom: 80px;
+  }
+
+  .hero-title {
+    width: 750px;
+    margin-bottom: 43px;
+  }
+
+  .hero-text {
+    top: 0;
+    right: 15px;
+    width: 282px;
+  }
+
+  .hero-section .pictures {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 63px;
+    align-items: end;
+  }
+  .swiper-control {
     margin: 0;
   }
 }
