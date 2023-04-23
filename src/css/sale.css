@@ -1,6 +1,7 @@
 .sale-section {
   padding-top: 80px;
   padding-bottom: 80px;
+  background-color: #fbfbfb;
 }
 .sale-title {
   font-family: 'Epilogue', sans-serif;
@@ -207,7 +208,7 @@
     padding-right: 66px;
   }
   .product-title {
-    font-style: 38px;
+    font-size: 38px;
     line-height: 1.05;
   }
   .description-blok {
