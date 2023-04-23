@@ -1,6 +1,6 @@
 .catalog {
   padding-top: 80px;
-  background-color: #efefef;
+  background-color: var(--basic-bcg-color);
 }
 .catalog-title {
   margin-bottom: 40px;
@@ -47,7 +47,7 @@
 }
 .card-scene {
   position: relative;
-  width: 336px;
+  max-width: 336px;
   height: 360px;
 }
 .card {
