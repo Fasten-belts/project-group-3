@@ -231,10 +231,9 @@
     }
     .footer-text{
         display: flex;
+        justify-content: space-between;
     }
-    .footer-text-service{
-        margin-left: 200px;
-    }
+ 
     .footer-container-content{
         display: flex;
     }
@@ -292,9 +291,7 @@
         color: #C6CDD1;
         opacity: 0.9;
     }
-    .footer-text-service{
-        margin-left: 734px;
-    }
+  
     .footer-text-link{
         font-family: 'Epilogue' sans-serif;
         font-style: normal;
