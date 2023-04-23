@@ -1,5 +1,7 @@
 .footer{
     background: #1E2827;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 .footer-container-content{
 }
@@ -161,6 +163,10 @@
     display: flex;
 }
 @media screen and (min-width: 768px) {
+    .footer{
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
     .footer-link-tel{
         font-family: 'Epilogue' sans-serif;
         font-style: normal;
@@ -285,7 +291,7 @@
         opacity: 0.9;
     }
     .footer-text-service{
-        margin-left: 680px;
+        margin-left: 734px;
     }
     .footer-text-link{
         font-family: 'Epilogue' sans-serif;
