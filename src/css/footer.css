@@ -1,7 +1,5 @@
-.footer-container {
+.footer{
     background: #1E2827;
-    padding-bottom: 20px;
-    padding-top: 40px;
 }
 .footer-container-content{
 }
@@ -10,9 +8,15 @@
 }
 .container {}
 
-.footer-connect {}
+.footer-connect {
+}
 
 .footer-logo {}
+
+.footer-logo-img{
+    width: 40px;
+    height: 40px;
+}
 
 .footer-adress {
     margin: 40px 0px 40px 0px
@@ -51,7 +55,7 @@
 }
 
 .footer-menu {
-    margin-left: 144px;
+    margin-left: 136px;
 }
 
 .footer-list-menu {}
@@ -75,18 +79,39 @@
     
 }
 
-.footer-info {}
+.footer-info {
+}
 
-.footer-list-info {}
+.footer-list-info {
+    display: flex;
+    margin-bottom: 80px;
+    gap: 14px;
+}
 
 .footer-item-info {}
 
-.footer-link-info {}
+.footer-link-info {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    justify-content: center;
+}
 
-.footer-svg-info {}
+.footer-svg-info {
+    fill: #d0d0d0;
+}
 
 .footer-text {
-
 }
 
 .footer-text-spot {
@@ -176,7 +201,6 @@
         color: #C6CDD1;
         opacity: 0.9;
         margin-bottom: 0px;
-        margin-left: 12px;
     }
     .footer-text-link{
         font-family: 'Epilogue' sans-serif;
@@ -196,6 +220,7 @@
     }
     .footer-text{
         display: flex;
+        justify-content: center;
     }
     .footer-text-service{
         margin-left: 200px;
@@ -215,20 +240,23 @@
     .footer-container-help{
         margin-left: 12px;
     }
+    .footer-link-info{
+        width: 44px;
+        height: 44px;
+    }
+    .footer-logo-img {
+        width: 50px;
+        height: 50px;
+    }
     
 }
 
 @media screen and (min-width: 1280px) {
-    .footer-container{
-        max-width: 1440px;
-        padding-top: 104px;
-        padding-bottom: 32px;
-    }
     .footer-info{
-        margin-left: 357px;
+        margin-left: 401px;
     }
     .footer-menu{
-        margin-left: 349px;
+        margin-left: 355px;
     }
     .footer-link-tel{
         font-family: 'Epilogue' sans-serif;
@@ -240,10 +268,11 @@
         color: #FFFFFF;
     }
     .footer-container-help{
-        margin-left: 112px;
+    }
+    .footer-container-content{
+        justify-content: center;
     }
     .footer-text-spot{
-        margin-left: 112px;
         font-family: 'Epilogue' sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -290,5 +319,9 @@
         flex: none;
         order: 0;
         flex-grow: 0;
+    }
+    .footer-link-info:hover{
+        border: 1px solid #FFFFFF;
+        border-radius: 8px;
     }
 }
