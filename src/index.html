@@ -10,26 +10,75 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
   </head>
   <body>
-    <!-- Header / Menu -->
-    <load src="partials/header.html" />
-    <!-- Hero -->
-    <load src="" />
-    <!-- About Us -->
-    <load src="" />
-    <!-- Catalog -->
-    <load src="" />
-    <!-- Modal Window -->
-    <load src="" />
-    <!-- New Watches -->
-    <load src="" />
-    <!-- Sale -->
-    <load src="" />
-    <!-- Footer -->
-    <load src="" />
-    <load src="" />
-    <script type="module" src="/main.js"></script>
-    <script src="/modal.js"></script>
+    <!-- Slider -->
+
+      <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./img/clocks-slider/clock-1x.png" alt="#" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/clocks-slider/clock2-1x.png" alt="#" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/clocks-slider/clock3-1x.png" alt="#" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/clocks-slider/clock4-1x.png" alt="#" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/clocks-slider/clock5-1x.png" alt="#" />
+        </div>
+      </div>
+    </div>
+<div class="swiper-navigation-wrap wrap-navigation">
+        <div class="swiper-button-wrap">
+          <div class="button-prev">
+            <svg class="swiper-button-icon">
+              <use href="./img/sprait.svg#icon-chevron-right"></use>
+            </svg>
+          </div>
+          <div class="button-next">
+            <svg class="swiper-button-icon">
+              <use href="./img/sprait.svg#icon-chevron-left"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="pagination">
+          <span class="pagination-current">01</span>
+          <svg class="line-pegination">
+              <use href="./img/sprait.svg#icon-Vector-3"></use>
+            </svg>
+          <span class="pagination-current">05</span>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+      const swiper = new Swiper(' .mySwiper', {
+        slidesPerWiew: 1,
+        spaceBetween: 10,
+        loop: true,
+        keyboard: {
+          enabled: true,
+        },
+        navigation: {
+          nextEL: '.button-next',
+          prevEL: '.button-prev',
+        },
+      });
+      swiper.on('slideChange', function (swiper) {
+  console.dir(swiper.realIndex);
+  document.querySelector('.pagination-current').innerHTML =
+    '0' + (swiper.realIndex + 1);
+});
+    </script> 
   </body>
 </html>

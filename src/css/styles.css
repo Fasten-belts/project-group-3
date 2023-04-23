@@ -9,3 +9,51 @@
 @import url('./fonts.css');
 @import url('./containers.css');
 @import url('./header.css');
+body {
+  background-color: black;
+}
+
+.swiper-button-wrap {
+  display: flex;
+  gap: 8px;
+}
+
+.swiper-button-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #141414;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  margin-top: 20px;
+  stroke: #ffffff;
+  fill: none;
+}
+
+.button-prev {
+  pointer-events: all;
+}
+
+.swiper-button-wrap {
+  margin-right: 262px;
+}
+
+.pagination-current {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.line-pegination {
+  width: 40px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+.wrap-navigation {
+  display: flex;
+}
+
