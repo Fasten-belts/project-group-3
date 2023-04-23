@@ -82,8 +82,7 @@
   .hero-section .pictures {
     display: flex;
     flex-wrap: wrap;
-    gap: 52px;
-    /* gap: 63px; */
+    gap: 63px;
     align-items: end;
   }
   .swiper-control {
