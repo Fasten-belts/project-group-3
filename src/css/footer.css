@@ -1,0 +1,294 @@
+.footer-container {
+    background: #1E2827;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.footer-container-content{
+}
+.footer-container-help{
+    display: flex;
+}
+.container {}
+
+.footer-connect {}
+
+.footer-logo {}
+
+.footer-adress {
+    margin: 40px 0px 40px 0px
+}
+
+.footer-list-adress {
+    gap: 20px;
+    display: grid;
+}
+
+.footer-item-tel {}
+
+.footer-link-tel {
+    font-family: 'Epilogue' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-item-city {
+  
+}
+
+.footer-text-city {
+    display: flex;
+    font-family: 'Epilogue' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.footer-menu {
+    margin-left: 144px;
+}
+
+.footer-list-menu {}
+
+.footer-item-menu {
+    font-family: 'Epilogue' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-bottom: 14px;
+}
+
+.footer-link-menu {
+    
+}
+
+.footer-info {}
+
+.footer-list-info {}
+
+.footer-item-info {}
+
+.footer-link-info {}
+
+.footer-svg-info {}
+
+.footer-text {
+
+}
+
+.footer-text-spot {
+    font-family: 'Epilogue' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: -0.02em; 
+    color: #C6CDD1;
+    opacity: 0.9;
+    margin-bottom: 14px;
+}
+
+.footer-text-link {
+    font-family: 'Epilogue' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #C6CDD1;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.footer-spot{
+    
+}
+
+.footer-text-service {
+    font-family: 'Epilogue' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #C6CDD1;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    gap: 14px;
+    display: flex;
+}
+@media screen and (min-width: 768px) {
+    .footer-link-tel{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .footer-text-city{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    .footer-item-menu{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-bottom: 18px;
+    }
+    .footer-text-spot{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.3;
+        letter-spacing: -0.02em;
+        color: #C6CDD1;
+        opacity: 0.9;
+        margin-bottom: 0px;
+        margin-left: 12px;
+    }
+    .footer-text-link{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: -0.02em;
+        color: #C6CDD1;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .footer-item-info{
+        display: flex;
+    }
+    .footer-text{
+        display: flex;
+    }
+    .footer-text-service{
+        margin-left: 200px;
+    }
+    .footer-container-content{
+        display: flex;
+    }
+    .footer-info{
+        margin-left: 142px;
+    }
+    .footer-list-info{
+        display: flex;
+    }
+    .footer-adress{
+        margin: 40px 0px 152px 0px;
+    }
+    .footer-container-help{
+        margin-left: 12px;
+    }
+    
+}
+
+@media screen and (min-width: 1280px) {
+    .footer-container{
+        max-width: 1440px;
+        padding-top: 104px;
+        padding-bottom: 32px;
+    }
+    .footer-info{
+        margin-left: 357px;
+    }
+    .footer-menu{
+        margin-left: 349px;
+    }
+    .footer-link-tel{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .footer-container-help{
+        margin-left: 112px;
+    }
+    .footer-text-spot{
+        margin-left: 112px;
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        color: #C6CDD1;
+        opacity: 0.9;
+    }
+    .footer-text-service{
+        margin-left: 680px;
+    }
+    .footer-text-link{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: -0.02em;
+        color: #C6CDD1;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .footer.footer-text-city{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    .footer-item-menu{
+        font-family: 'Epilogue' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+}
