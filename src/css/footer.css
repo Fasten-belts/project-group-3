@@ -57,7 +57,7 @@
 }
 
 .footer-menu {
-    margin-left: 136px;
+    margin-left: auto;
 }
 
 .footer-list-menu {}
@@ -167,6 +167,9 @@
         padding-top: 80px;
         padding-bottom: 20px;
     }
+    .footer-menu{
+        margin-left: 142px;
+    }
     .footer-link-tel{
         font-family: 'Epilogue' sans-serif;
         font-style: normal;
@@ -228,7 +231,6 @@
     }
     .footer-text{
         display: flex;
-        justify-content: center;
     }
     .footer-text-service{
         margin-left: 200px;
