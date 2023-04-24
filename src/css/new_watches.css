@@ -54,6 +54,7 @@
 @media screen and (min-width: 1280px) {
   .new-products {
     padding-top: 80px;
+    padding-bottom: 80px;
     background-color: var(--primary-text-color);
   }
   .text-new-products {
