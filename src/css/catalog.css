@@ -129,6 +129,7 @@
 .modal-open-btn:focus {
   border: 1px solid #ffffff;
 }
+
 @media screen and (max-width: 1279px) {
   .hidden {
     display: none;
@@ -165,6 +166,7 @@
 @media screen and (min-width: 1280px) {
   .catalog {
     padding-top: 80px;
+    padding-bottom: 80px;
   }
   .catalog-title {
     margin-bottom: 64px;
