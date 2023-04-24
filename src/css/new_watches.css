@@ -1,8 +1,11 @@
 .new-products {
   background-color: var(--basic-bcg-color);
 }
-.title-new-products {
+
+.new-products {
   padding-top: 80px;
+}
+.title-new-products {
   margin-bottom: 8px;
   font-family: 'Epilogue', sans-serif;
   font-style: normal;
@@ -31,13 +34,14 @@
   gap: 20px;
 }
 @media screen and (min-width: 768px) {
+  .new-products {
+    padding-top: 128px;
+  }
+
   .text-new-products {
     width: 488px;
     font-size: 40px;
     line-height: 1.1;
-  }
-  .title-new-products {
-    padding-top: 150px;
   }
   .product-item {
     width: calc((100% - 20px) / 2);
@@ -49,10 +53,8 @@
 
 @media screen and (min-width: 1280px) {
   .new-products {
+    padding-top: 80px;
     background-color: var(--primary-text-color);
-  }
-  .title-new-products {
-    padding-top: 160px;
   }
   .text-new-products {
     margin-bottom: 80px;
