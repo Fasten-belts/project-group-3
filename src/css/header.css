@@ -73,6 +73,7 @@
   overflow-y: auto;
   transform: translate(0, 0);
   transition: 0.5s;
+  z-index: 1;
 }
 
 .is-hidden {
