@@ -3,57 +3,203 @@
     <h1 class="hero-title">Welcome to our collection of premium watches</h1>
 
     <div class="pictures">
-      <div class="swiper">
-        <picture>
-          <source
-            srcset="
-              ./img/hero-section/swiper-image-tabl-des.jpg    1x,
-              ./img/hero-section/swiper-image-tabl-des@2x.jpg 2x
-            "
-            media="(min-width: 1280px)"
-          />
-
-          <source
-            srcset="
-              ./img/hero-section/swiper-image-tabl-des.jpg    1x,
-              ./img/hero-section/swiper-image-tabl-des@2x.jpg 2x
-            "
-            media="(min-width: 768px)"
-          />
-
-          <source
-            srcset="
-              ./img/hero-section/swiper-image-mobile.jpg    1x,
-              ./img/hero-section/swiper-image-mobile@2x.jpg 2x
-            "
-            media="(max-width: 767px)"
-          />
-
-          <img
-            src="./img/hero-section/swiper-image-mobile.jpg"
-            alt="Watch"
-            class="swiper-image"
-          />
-        </picture>
-
-        <picture>
-          <source
-            srcset="./img/hero-section/swiper-blocks-tabl-des.png"
-            media="(min-width: 768px)"
-          />
-
-          <source
-            srcset="./img/hero-section/swiper-blocks-mobile.png"
-            media="(max-width: 767px)"
-          />
-
-          <img
-            src="./img/hero-section/swiper-blocks-mobile.png"
-            alt="Swiper control"
-            class="swiper-control"
-          />
-        </picture>
+      <div class="swiper-container">
+        <div class="swiper mySwiper">
+          <!-- Додаткова обгортка -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide swiper-slide1">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./img/clocks-slider/clock-1x.png 1x,
+                    ./img/clocks-slider/clock-2x.png 2x
+                  "
+                  type="image/png"
+                  width="348"
+                  height="233"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./img/clocks-slider/clock-1x.png 1x,
+                    ./img/clocks-slider/clock-2x.png 2x
+                  "
+                  type="image/png"
+                  width="348"
+                  height="233"
+                />
+                <img
+                  src="./img/clocks-slider/clock-mob.png"
+                  alt="watch"
+                  width="226"
+                  height="190"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide swiper-slide2">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./img/clocks-slider/clock2-1x.png 1x,
+                    ./img/clocks-slider/clock2-2x.png 2x
+                  "
+                  type="image/png"
+                  width="348"
+                  height="233"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./img/clocks-slider/clock2-1x.png 1x,
+                    ./img/clocks-slider/clock2-2x.png 2x
+                  "
+                  type="image/png"
+                  width="348"
+                  height="233"
+                />
+                <img
+                  src="./img/clocks-slider/clock2-mob.png"
+                  alt="watch"
+                  width="226"
+                  height="190"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide swiper-slide3">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./img/clocks-slider/clock3-1x.png 1x,
+                    ./img/clocks-slider/clock3-2x.png 2x
+                  "
+                  type="image/png"
+                  width="348"
+                  height="233"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./img/clocks-slider/clock3-1x.png 1x,
+                    ./img/clocks-slider/clock3-2x.png 2x
+                  "
+                  type="image/png"
+                  width="348"
+                  height="233"
+                />
+                <img
+                  src="./img/clocks-slider/clock3-mob.png"
+                  alt="watch"
+                  width="226"
+                  height="190"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide swiper-slide4">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./img/clocks-slider/clock4-1x.png 1x,
+                    ./img/clocks-slider/clock4-2x.png 2x
+                  "
+                  type="image/png"
+                  width="348"
+                  height="233"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./img/clocks-slider/clock4-1x.png 1x,
+                    ./img/clocks-slider/clock4-2x.png 2x
+                  "
+                  type="image/png"
+                  width="348"
+                  height="233"
+                />
+                <img
+                  src="./img/clocks-slider/clock4-mob.png"
+                  alt="watch"
+                  width="226"
+                  height="190"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide swiper-slide5">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./img/clocks-slider/clock5-1x.png 1x,
+                    ./img/clocks-slider/clock5-2x.png 2x
+                  "
+                  type="image/png"
+                  width="348"
+                  height="233"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./img/clocks-slider/clock5-1x.png 1x,
+                    ./img/clocks-slider/clock5-2x.png 2x
+                  "
+                  type="image/png"
+                  width="348"
+                  height="233"
+                />
+                <img
+                  src="./img/clocks-slider/clock5-mob.png"
+                  alt="watch"
+                  width="226"
+                  height="190"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-navigation-wrap wrap-navigation">
+          <div class="swiper-button-wrap">
+            <div class="button-prev">
+              <svg class="swiper-button-icon">
+                <use href="./img/sprait.svg#icon-chevron-right"></use>
+              </svg>
+            </div>
+            <div class="button-next">
+              <svg class="swiper-button-icon">
+                <use href="./img/sprait.svg#icon-chevron-left"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="pagination">
+            <span class="pagination-current">01</span>
+            <span class="">05</span>
+          </div>
+        </div>
       </div>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+      <script>
+        const swiper = new Swiper('.mySwiper', {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          loop: true,
+          keyboard: {
+            enabled: true,
+          },
+          navigation: {
+            nextEl: '.button-next',
+            prevEl: '.button-prev',
+          },
+        });
+
+        swiper.on('slideChange', function (swiper) {
+          console.dir(swiper.realIndex);
+          document.querySelector('.pagination-current').innerHTML =
+            '0' + (swiper.realIndex + 1);
+        });
+      </script>
 
       <p class="hero-text">
         Our watches are not just timepieces, but also an expression of your
