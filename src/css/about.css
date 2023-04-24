@@ -1,6 +1,6 @@
 .about-section {
   padding-top: 40px;
-  background-color: #EFEFEF;
+  background-color: var(--basic-bcg-color);
 }
 
 .about-container {
