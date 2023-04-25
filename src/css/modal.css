@@ -75,6 +75,7 @@
   text-overflow: ellipsis;
   letter-spacing: -0.02em;
   margin-bottom: 4px;
+  margin-top: 39px;
 }
 .modal-text-price {
   font-family: 'Epilogue', sans-serif;
@@ -280,5 +281,8 @@
   }
   .modal-input-wrapper {
     width: 508px;
+  }
+  .modal-form-input {
+    margin-bottom: 24px;
   }
 }
