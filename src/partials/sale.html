@@ -5,44 +5,106 @@
       <div class="img-content">
         <ul class="sale-list">
           <li class="sale-item">
-            <img
-              srcset="./img/watch-one.jpg 1x, ./img/watch-one-2x.jpg 2x"
-              src="./img/watch-one.jpg"
-              alt="watch"
-              class="sale-images"
-            />
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="./img/watch-one.jpg 1x, ./img/watch-one-2x.jpg 2x"
+              />
+              <source
+                media="(min-width: 320px)"
+                srcset="
+                  ./img/watch-one-mob.jpg    1x,
+                  ./img/watch-one-mob-2x.jpg 2x
+                "
+              />
+              <img
+                srcset="./img/watch-one.jpg 1x, ./img/watch-one-2x.jpg 2x"
+                src="./img/watch-one.jpg"
+                alt="watch"
+                class="sale-images"
+              />
+            </picture>
           </li>
           <li class="sale-item">
-            <img
-              srcset="./img/watch-two.jpg 1x, ./img/watch-two-2x.jpg 2x"
-              src="./img/watch-two.jpg"
-              alt="watch"
-              class="sale-images"
-            />
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="./img/watch-two.jpg 1x, ./img/watch-two-2x.jpg 2x"
+              />
+              <source
+                media="(min-width: 320px)"
+                srcset="
+                  ./img/watch-two-mob.jpg    1x,
+                  ./img/watch-two-mob-2x.jpg 2x
+                "
+              />
+              <img
+                srcset="./img/watch-two.jpg 1x, ./img/watch-two-2x.jpg 2x"
+                src="./img/watch-two.jpg"
+                alt="watch"
+                class="sale-images"
+              />
+            </picture>
           </li>
           <li class="sale-item">
-            <img
-              srcset="./img/watch-three.jpg 1x, ./img/watch-three-2x.jpg 2x"
-              src="./img/watch-three.jpg"
-              alt="watch"
-              class="sale-images"
-            />
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="./img/watch-three.jpg 1x, ./img/watch-three-2x.jpg 2x"
+              />
+              <source
+                media="(min-width: 320px)"
+                srcset="
+                  ./img/watch-three-mob.jpg    1x,
+                  ./img/watch-three-mob-2x.jpg 2x
+                "
+              />
+              <img
+                srcset="./img/watch-three.jpg 1x, ./img/watch-three-2x.jpg 2x"
+                src="./img/watch-three.jpg"
+                alt="watch"
+                class="sale-images"
+              />
+            </picture>
           </li>
           <li class="sale-item">
-            <img
-              srcset="./img/watch-four.jpg 1x, ./img/watch-four-2x.jpg 2x"
-              src="./img/watch-four-mob.jpg"
-              alt="watch"
-              class="sale-images"
-            />
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="./img/watch-four.jpg 1x, ./img/watch-four-2x.jpg 2x"
+              />
+              <source
+                media="(min-width: 320px)"
+                srcset="
+                  ./img/watch-four-mob.jpg    1x,
+                  ./img/watch-four-mob-2x.jpg 2x
+                "
+              />
+              <img
+                srcset="./img/watch-four.jpg 1x, ./img/watch-four-2x.jpg 2x"
+                src="./img/watch-four-mob.jpg"
+                alt="watch"
+                class="sale-images"
+              />
+            </picture>
           </li>
         </ul>
-        <img
-          srcset="./img/big-watch.jpg 1x, ./img/big-watch-2x.jpg 2x"
-          src="./img/big-watch.jpg"
-          alt="watch"
-          class="big-img"
-        />
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="./img/big-watch.jpg 1x, ./img/big-watch-2x.jpg 2x"
+          />
+          <source
+            srcset="./img/big-watch-mob.jpg 1x, ./img/big-watch-mob-2x.jpg 2x"
+            media="(min-width: 320px)"
+          />
+          <img
+            srcset="./img/big-watch.jpg 1x, ./img/big-watch-2x.jpg 2x"
+            src="./img/big-watch.jpg"
+            alt="watch"
+            class="big-img"
+          />
+        </picture>
       </div>
       <div class="info-blok">
         <div class="product">

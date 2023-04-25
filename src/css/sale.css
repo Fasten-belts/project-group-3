@@ -57,6 +57,7 @@
 .price-content {
   display: flex;
   gap: 8px;
+  align-items: baseline;
 }
 .price {
   font-family: 'Epilogue', sans-serif;
@@ -68,7 +69,6 @@
   color: var(--section-text-color);
 }
 .price-old {
-  padding-top: 6.5px;
   font-family: 'Epilogue', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -231,11 +231,12 @@
   }
   .sale-blok {
     width: 1176px;
-    padding-left: 98px;
+    justify-content: flex-end;
     display: flex;
     gap: 40px;
   }
   .img-content {
+    margin-bottom: 0;
     width: 572px;
     padding-left: 0;
     padding-right: 0;
