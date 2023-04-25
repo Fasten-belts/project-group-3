@@ -1,4 +1,12 @@
-
+/* Logo animation */
+.logo {
+  position: relative;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+.logo:hover {
+  transform: scale(1.2);
+}
 .link {
   text-decoration: none;
 }
@@ -62,7 +70,7 @@
 }
 
 .menu-open-icon {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 /** ------------- MOB MENU --------------- **/
@@ -91,7 +99,7 @@
   max-width: 375px;
 }
 
-.mob-menu.is-hidden{
+.mob-menu.is-hidden {
   transform: translate(100%, 0);
 }
 
@@ -101,7 +109,7 @@
   margin-left: auto;
   background-color: transparent;
   border: none;
-  stroke: #FFFFFF;
+  stroke: #ffffff;
 }
 
 .mob-menu-list {
@@ -128,15 +136,11 @@
   color: var(--primary-text-color);
 }
 
-
-
-
 @media screen and (min-width: 375px) {
   .modal-mob-menu {
-      margin: 0 auto;
-    }
+    margin: 0 auto;
+  }
 }
-
 
 @media screen and (min-width: 768px) {
   .header {
@@ -146,15 +150,16 @@
   .mob-menu {
     display: none;
   }
-  
+
   .menu-open-btn {
     display: none;
   }
 
-  .header-nav{
+  .header-nav {
     display: flex;
     align-items: center;
   }
+
   
   .logo {
     transition-property: transform;
@@ -166,6 +171,8 @@
     transform: scale(1.1);
   }
   
+
+
   .header-logo-img {
     width: 19px;
     height: 19px;
@@ -181,11 +188,11 @@
     margin-right: auto;
     margin-left: 80px;
   }
-  
+
   .header-item {
     display: flex;
   }
-  
+
   .header-tel {
     display: block;
     font-family: 'Epilogue';
@@ -197,7 +204,7 @@
     text-transform: uppercase;
     color: var(--primary-text-color);
     padding: 18px 36px;
-    background-color: #1E2827;
+    background-color: #1e2827;
     border-radius: 8px;
     border: 1px solid transparent;
     border-radius: 8px;
@@ -207,10 +214,9 @@
   }
 
   .header-tel:hover {
-    background-color: #1E2827;
-    border: 1px solid #FFFFFF;
+    background-color: #1e2827;
+    border: 1px solid #ffffff;
     border-radius: 8px;
-    
   }
 
   .header-link {
@@ -234,15 +240,20 @@
     transform: scale(1.2);
   }
 
+
   .header-link::after {
     content: "";
     display: none;
+    
+  .header-link:hover::after {
+    content: '';
+
     position: absolute;
     width: 100%;
     height: 1px;
     left: 0;
     top: 20px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 1px;
     transform: scale(1.1);
     transition-property: transform;
@@ -256,7 +267,5 @@
   }
 }
 
-
-
-
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+}
