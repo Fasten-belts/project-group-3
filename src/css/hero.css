@@ -93,8 +93,14 @@
 
 /* Swiper */
 .swiper-container {
-  max-width: 348px;
+  max-width: 436px;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .swiper-container {
+    max-width: 266px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
