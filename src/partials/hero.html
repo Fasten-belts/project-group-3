@@ -181,18 +181,19 @@
       </div>
       <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
       <script>
-        const swiper = new Swiper(' .mySwiper', {
-          slidesPerWiew: 1,
+        const swiper = new Swiper('.mySwiper', {
+          slidesPerView: 1,
           spaceBetween: 10,
           loop: true,
           keyboard: {
             enabled: true,
           },
           navigation: {
-            nextEL: '.button-next',
-            prevEL: '.button-prev',
+            nextEl: '.button-next',
+            prevEl: '.button-prev',
           },
         });
+
         swiper.on('slideChange', function (swiper) {
           console.dir(swiper.realIndex);
           document.querySelector('.pagination-current').innerHTML =
