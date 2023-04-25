@@ -82,7 +82,7 @@
   height: 100%;
   padding: 29px 20px 0px 20px;
   background-color: var(--primary-bcg-color);
-   
+
   transform: translate(0, 0);
   transition: 0.5s;
   z-index: 10;
@@ -160,7 +160,6 @@
     align-items: center;
   }
 
-  
   .logo {
     transition-property: transform;
     transition-duration: 250ms;
@@ -170,8 +169,6 @@
   .logo:hover {
     transform: scale(1.1);
   }
-  
-
 
   .header-logo-img {
     width: 19px;
@@ -235,16 +232,16 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .header-link:hover {
     transform: scale(1.2);
   }
 
-
   .header-link::after {
-    content: "";
+    content: '';
     display: none;
-    
+  }
+
   .header-link:hover::after {
     content: '';
 
@@ -263,7 +260,7 @@
 
   .header-link:hover::after {
     display: block;
-    transform: scale(1.2)
+    transform: scale(1.2);
   }
 }
 
