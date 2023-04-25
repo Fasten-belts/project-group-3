@@ -1,113 +1,82 @@
 <div class="backdrop is-hidden" data-modal>
-  <div class="modal">
-    <button type="button" data-modal-close class="close-modal-btn">
-      <svg class="close-modal-btn-icon">
-        <use href="./img/sprait.svg#icon-close-x-24"></use>
-      </svg>
-    </button>
-    <div class="modal-wrapper-wrap">
-      <div class="modal-img-wrapper">
-        <div class="modal-img-desc-wrap">
-          <picture>
-            <source
-              srcset="
-                ./img/catalog.images/clock-1-desktop.png    1x,
-                ./img/catalog.images/clock-1-desktop@2x.png 2x
-              "
-              media="(min-width: 1280px)"
-            />
-            <source
-              srcset="
-                ./img/catalog.images/clock-1-tablet.png    1x,
-                ./img/catalog.images/clock-1-tablet@2x.png 2x
-              "
-              media="(min-width: 768px)"
-            />
-            <source
-              srcset="
-                ./img/catalog.images/clock-1-mobile.png    1x,
-                ./img/catalog.images/clock-1-mobile@2x.png 2x
-              "
-              media="(min-width: 320px)"
-            />
-            <img
-              class="modal-watch-img"
-              width="275"
-              height="274"
-              src="./img/catalog.images/clock-1-mobile.png"
-              alt="Tube Watch S42 Date Steel With Black Case"
-            />
-          </picture>
+    <div class="modal scroll-outside">
+        <button type="button" data-modal-close class="close-modal-btn">
+            <svg class="close-modal-btn-icon">
+                <use href="./img/sprait.svg#icon-close-x-24"></use>
+            </svg>
+        </button>
+        <div class="modal-wrapper-wrap">
+            <div class="modal-img-wrapper">
+                <div class="modal-img-desc-wrap">
+                    <picture>
+                        <source srcset="
+                                            ./img/catalog.images/clock-1-desktop.png    1x,
+                                            ./img/catalog.images/clock-1-desktop@2x.png 2x
+                                        " media="(min-width: 1280px)" />
+                        <source srcset="
+                                            ./img/catalog.images/clock-1-tablet.png    1x,
+                                            ./img/catalog.images/clock-1-tablet@2x.png 2x
+                                        " media="(min-width: 768px)" />
+                        <source srcset="
+                                            ./img/catalog.images/clock-1-mobile.png    1x,
+                                            ./img/catalog.images/clock-1-mobile@2x.png 2x
+                                        " media="(min-width: 320px)" />
+                        <img class="modal-watch-img" width="275" height="274"
+                            src="./img/catalog.images/clock-1-mobile.png"
+                            alt="Tube Watch S42 Date Steel With Black Case" />
+                    </picture>
+                </div>
+                <div class="modal-img-text-desc-wrap">
+                    <h3 class="modal-subtitle">Tube Watch S42 Date Steel With
+                        Black Case
+                    </h3>
+                    <p class="modal-text-price">€395</p>
+                </div>
+            </div>
+            <div class="modal-input-wrapper">
+                <form class="modal-form">
+                    <label class="modal-form-field">
+                        <span class="modal-form-input-desc">Full name</span>
+                        <input type="text" name="user-name"
+                            class="modal-form-input" required
+                            pattern="^[a-zA-Za-яА-ЯіІїЇ]+$" minlength="2"
+                            placeholder="Enter your full name" />
+                    </label>
+                    <label class="modal-form-field">
+                        <span class="modal-form-input-desc">Email</span>
+                        <input type="email" name="user-email"
+                            class="modal-form-input" required
+                            pattern="^\S+@\S+\.\S+$" title="example@mail.com"
+                            placeholder="Enter your email" />
+                    </label>
+                    <label class="modal-form-field">
+                        <span class="modal-form-input-desc">Card number</span>
+                        <input type="tel" name="credit-number"
+                            class="modal-form-input" required pattern="\d*"
+                            title="XXXX XXXX XXXX XXXX" maxlength="19"
+                            placeholder="Enter card" />
+                    </label>
+                    <label class="modal-form-field">
+                        <span class="modal-form-input-desc">Comments</span>
+                        <textarea name="user-message" class="modal-form-message"
+                            required placeholder="Enter your text"></textarea>
+                    </label>
+                    <button type="submit"
+                        class="modal-form-submit">submit</button>
+                    <input id="user-policy" type="checkbox" name="user-policy"
+                        class="modal-form-check is-hidden">
+                    <label for="user-policy" class="modal-form-check-desc">By
+                        clicking on “Submit” button, you agree to our
+                        &nbsp; <a class="user-policy-link" href="">Privacy
+                            Policy,
+                        </a>
+                        and
+                        allow Promodo to use this information for marketing
+                        purposes.
+                    </label>
+                </form>
+            </div>
         </div>
-        <div class="modal-img-text-desc-wrap">
-          <h3 class="modal-subtitle">
-            Tube Watch S42 Date Steel With Black Case
-          </h3>
-          <p class="modal-text-price">€395</p>
-        </div>
-      </div>
-      <div class="modal-input-wrapper">
-        <form class="modal-form">
-          <label class="modal-form-field">
-            <span class="modal-form-input-desc">Full name</span>
-            <input
-              type="text"
-              name="user-name"
-              class="modal-form-input"
-              required
-              pattern="^[a-zA-Za-яА-ЯіІїЇ]+$"
-              minlength="2"
-              placeholder="Enter your full name"
-            />
-          </label>
-          <label class="modal-form-field">
-            <span class="modal-form-input-desc">Email</span>
-            <input
-              type="email"
-              name="user-email"
-              class="modal-form-input"
-              required
-              pattern="^\S+@\S+\.\S+$"
-              title="example@mail.com"
-              placeholder="Enter your email"
-            />
-          </label>
-          <label class="modal-form-field">
-            <span class="modal-form-input-desc">Card number</span>
-            <input
-              type="tel"
-              name="credit-number"
-              class="modal-form-input"
-              required
-              pattern="\d*"
-              title="XXXX XXXX XXXX XXXX"
-              maxlength="19"
-              placeholder="Enter card"
-            />
-          </label>
-          <label class="modal-form-field">
-            <span class="modal-form-input-desc">Comments</span>
-            <textarea
-              name="user-message"
-              class="modal-form-message"
-              placeholder="Enter your text"
-            ></textarea>
-          </label>
-          <button type="submit" class="modal-form-submit">submit</button>
-          <input
-            id="user-policy"
-            type="checkbox"
-            name="user-policy"
-            class="modal-form-check is-hidden"
-          />
-          <label for="user-policy" class="modal-form-check-desc"
-            >By clicking on “Submit” button, you agree to our &nbsp;
-            <a class="user-policy-link" href="">Privacy Policy, </a>
-            and allow Promodo to use this information for marketing purposes.
-          </label>
-        </form>
-      </div>
     </div>
-  </div>
 </div>
 <script src="/src/modal.js"></script>
