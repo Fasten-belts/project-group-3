@@ -11,7 +11,7 @@
 }
 
 .footer-logo {
-    display: flex;
+    display: inline-block;
     margin-bottom: 40px;
 }
 
@@ -131,7 +131,7 @@
 
     .footer-logo:hover,
     .footer-logo:focus {
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
 
     .footer-logo-img {
