@@ -14,11 +14,6 @@
   color: var(--title-text-color);
 }
 
-@media screen and (max-width: 767px) {
-  .catalog-list-item {
-    margin-bottom: 40px;
-  }
-}
 .img-wrap {
   padding: 43px 30px;
 }
@@ -59,8 +54,13 @@
   transform-style: preserve-3d;
   transition: transform 550ms ease-in;
 }
-.card-link:is(:hover, :focus, :active) .card {
-  transform: rotateY(180deg);
+@media screen and (max-width: 767px) {
+  .catalog-list-item {
+    margin-bottom: 40px;
+  }
+  .card-link:is(:hover, :active) .card {
+    transform: rotateY(180deg);
+  }
 }
 
 .card-front {
@@ -159,7 +159,9 @@
   .catalog-list-item {
     width: calc((100% - 30px) / 2);
   }
-
+  .card-link:is(:hover, :focus) .card {
+    transform: rotateY(180deg);
+  }
   .modal-open-btn {
     padding: 18px 35px;
     min-width: 122px;
