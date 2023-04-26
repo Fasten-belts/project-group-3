@@ -82,7 +82,7 @@
   height: 100%;
   padding: 29px 20px 0px 20px;
   background-color: var(--primary-bcg-color);
-
+  overflow-y: auto;
   transform: translate(0, 0);
   transition: 0.5s;
   z-index: 10;
