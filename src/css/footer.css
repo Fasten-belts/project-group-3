@@ -44,14 +44,11 @@
     margin-bottom: 40px;
 }
 
-.footer-menu {
-    margin-left: auto;
-}
-
 .footer-list-menu {
     display: flex;
     flex-direction: column;
     gap: 14px;
+    margin-left: auto;
 }
 
 .footer-item-menu {
@@ -162,12 +159,9 @@
         transform: scale(1.1);
     }
 
-    .footer-menu {
-        margin: 0;
-    }
-
     .footer-list-menu {
         gap: 18px;
+        margin: 0;
     }
 
     .footer-item-menu {
